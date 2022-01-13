@@ -42,7 +42,6 @@ class Boat {
       translate(pos.x, pos.y);
       rotate(angle);
       imageMode(CENTER);
-      image(0,0, this.boatPosition, this.width, this.height);
       noTint();
       pop();
     }
